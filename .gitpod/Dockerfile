@@ -1,4 +1,4 @@
-FROM bash:latest
+FROM ubuntu:latest
 
 ENV TRIGGER_REBUILD=5
 
