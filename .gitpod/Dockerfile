@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 
-ENV TRIGGER_REBUILD=8
+ENV TRIGGER_REBUILD=9
 
 RUN bash -c "for i in $(seq -s " " 1 120); do echo "$i"; sleep 1; done"
